@@ -1,0 +1,88 @@
+.bgcolor {
+    background-color: #141414;
+}
+
+.smallTxt {
+    font-size: 70%;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.mneg {
+    margin-left: -1%;
+}
+
+.largh {
+    width: 20%;
+    height: 75%;
+}
+
+@media only screen and (max-width: 768px) {
+    .largh {
+        width: 30%;
+        height: 80%;
+    }
+}
+
+.imagegrv {
+    transition: transform 0.3s;
+    padding-right: 30%;
+  }
+
+.imagegrv:hover {
+    transform: scale(1.2);
+  }
+
+  @media only screen and (max-width: 768px) {
+    .imagegrv {
+        padding-right: 1%;
+      }
+  }
+
+  .imagegrvi {
+    transition: transform 0.3s;
+  }
+
+.imagegrvi:hover {
+    transform: scale(1.2);
+  }
+
+footer {
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 8%;
+}
+
+.toglwhite {
+    color: white;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+@media only screen and (max-width: 576px) {
+    .largh {
+        width: 100px;
+        height: 32px;
+    }
+}
+
+.paddingone {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.move {
+    transform: translate(10px, -40px);
+    box-shadow: 6px 0px 5px 0.5px #111111;
+    padding: 0 7px;
+    padding-bottom: 2px;
+}
+
+.english {
+    width: 100px;
+    margin-top: -12px;
+}
