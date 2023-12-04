@@ -6,10 +6,6 @@
     font-size: 70%;
 }
 
-.bold {
-    font-weight: 600;
-}
-
 .mneg {
     margin-left: -1%;
 }
@@ -131,3 +127,21 @@ footer {
         margin: 1.5%;
     }
   }
+
+.hey {
+    padding: 2px;
+    margin: 0;
+}
+
+.ppl {
+    font-size: 0.8em;
+}
+
+.end {
+    text-align: end;
+}
+
+.bottone {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
